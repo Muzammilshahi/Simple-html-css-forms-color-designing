@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+ <style>
+      .container
+     {
+        display: grid;
+       background-color:;
+        grid-row-gap:2px;
+        grid-column-gap:20px;
+       
+     }
+   
+     .form
+    {
+     background-color:orange  ;
+       border:solid orange 10px ;
+     }
+
+    .form1
+    {
+     background-color:white ;
+       border:solid white 10px ;
+     }
+
+     .form2
+    {
+     background-color:green ;
+       border:solid green 10px ;
+     }
+.form3
+    {
+     background-color: aqua ;
+       border:solid aqua 10px ;
+     }
+
+.form4
+    {
+     background-color:yellow;
+       border:yellow solid 10px ;
+     }
+   </style>
+</head>
+<body>
+     <div class = container>
+         
+        <div class =form>
+          NAME :
+     <input type= text place holder= text>
+      </div>
+        <div class =form1>
+          PASSWORD :
+     <input type= password place holder= text>     
+     </div>
+     <div class =form2>
+          GENDER :
+     <select>
+       <option>
+          MALE 
+      </option>
+     <option>
+          FEMALE 
+      </option>
+    <option>
+          TRANSGENDER
+      </option>
+    </select>  
+     </div>
+    <div class=form3>
+  DATE OF BIRTH :
+    <input type=date placeholder=date>
+    </div>
+    <div class= form4>
+    PASS-OUT  YEAR :
+     <input type = Number >
+
+
+       
+     </div>
+
+</body>
+</html>
